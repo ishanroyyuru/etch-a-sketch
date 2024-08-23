@@ -1,0 +1,28 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+    width: 640px;;
+    margin-bottom: auto;
+}
+
+html, body{min-height:100%;}
+
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.gray {
+    background-color: gray;
+}
+
+button {
+    margin-bottom: auto;;
+}
+
